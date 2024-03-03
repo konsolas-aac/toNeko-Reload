@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "toneko",
+  "version": "${version}",
+  "name": "toNeko",
+  "description": "喵喵喵~",
+  "authors": [
+    "CrystalNeko"
+  ],
+  "contact": {
+    "website": "https://github.com/CSNeko/toNeko",
+    "repo": "https://github.com/CSNeko/toNeko",
+    "issues": "https://github.com/CSNeko/toNeko/issues",
+    "homepage": "https://github.com/CSNeko/toNeko"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/toneko/essentials/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.crystalneko.tonekofabric.client.ToNekoFabricClient"
+    ],
+    "main": [
+      "com.crystalneko.tonekofabric.ToNekoFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "ctlib": "*",
+    "geckolib": "*"
+  },
+    "suggests": {
+    "luckperms": "*"
+  }
+}
